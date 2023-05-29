@@ -1,0 +1,92 @@
+.main-input-container 
+{
+    background-color: white;
+    text-align: center;
+    min-width:27vw;
+    border-radius: 5px;
+}
+
+.head-div 
+{
+    padding-top: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-container 
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.input-box 
+{
+    width:100%;
+    font-size: 1rem;
+    height: 2.5rem;
+    text-align: center;
+    outline:none;
+    font-family: 'Poppins';
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-box::placeholder
+{
+    color:#ccc;
+}
+
+.input-box:focus 
+{
+    border: 2px solid #7E64FF;
+}
+
+.separator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.separator::before{
+    content: "or";
+    color: #b3b3b3;
+    font-size: 19px;
+    padding: 0 15px;
+    background: #fff;
+}
+
+button 
+{
+    width:90%;
+    height:2.5rem;
+    text-align: center;
+    background-color:#7E64FF;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -7rem;
+    margin-bottom: 1.5rem;
+}
+
+button:hover
+{
+    background-color: #6142ff;
+}
+
+@media screen and (max-width:768px)
+{
+    .main-input-container {
+        width:90vw;
+    }
+}

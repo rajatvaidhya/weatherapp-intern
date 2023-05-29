@@ -1,0 +1,84 @@
+.weather-img 
+{
+    height:30%;
+    width:30%;
+    margin: auto;
+    display: block;
+}
+
+.head 
+{
+    width:100%;
+    text-align: left;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    color: #7E64FF;
+}
+
+.main-info-container 
+{
+    width:80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.weather-info>h1 
+{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+.weather-info>p
+{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.first-container 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.second-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2rem;  
+}
+
+.first-p
+{
+    margin-top: -2rem;
+}
+
+.other-info-container 
+{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.vertical-ruler 
+{
+    border-left: 1px solid #ccc;
+}
+
+.fa-temperature-full, .fa-droplet
+{
+    font-size: 2rem;
+    color:#7E64FF;
+}
